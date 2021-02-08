@@ -1,0 +1,28 @@
+.site-container{
+    margin: 10px 0 100px 100px;
+}
+.food{
+   border: 1px solid goldenrod; 
+}
+#food-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+    padding: 20px;
+}
+#food-container img{
+    width: 100%;
+}
+
+#menu-detail{
+    color: green;
+}
+#menu-detail img{
+    width: 400px;
+}
+.search-form{
+    display: flex;
+}
+.search-form input{
+    margin-right: 20px;
+}
